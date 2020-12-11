@@ -1,0 +1,10 @@
+
+# 1. Run on configuration dB to get the info on Domain Users group
+
+Select * FROM tbl_Identity
+Where AccountName = 'Domain Users'
+
+# 2.  To get the project details of any given collection
+
+SELECT *
+FROM [TFS_Main].[dbo].[tbl_Project]
